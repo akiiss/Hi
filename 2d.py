@@ -1,5 +1,5 @@
 n = int(input())
 k = int(input())
-k %= n
-k *= 2
-print(k)
+k /=n
+
+print(int(k))
